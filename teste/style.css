@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --purple-50:#5C469C;
+    --purple:#D4ADFC;
+    --blue-30:#ABC4AA;
+    --blue-70:#355C7D;
+    --blue100:#251749;
+    --pink-70:#C06C84;
+    --pink-20:#F67280;
+    --pink-05:#F8B195;
+    --dourado:#ffd24cea;
+}
+@font-face {
+    font-family: 'doce';
+    src: url('Mallika-Wesley-Demo-BF6454be5fe1020.ttf') format('truetype');
+}
+body{
+   background-image: url(./imagens/walppa.PNG);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   height: 720px;
+   background-color: #5C469C;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--blue100);
+}
+.nav-link{
+    color: beige;
+}
+.nav-link img{
+    color: beige;
+   /* background-color: azure; */
+}
+nav button:hover{
+    background-color: var(--blue-70);
+    opacity: .3;
+}
+nav li a:hover{
+    background-color:var(--dourado);
+    border-radius: 10px;
+    color:var(--blue100);
+}
+header h1, p{
+ color: rgb(255, 238, 0);
+}
+#muar{
+display: flex;
+    /* width: 50%; */
+height: 720px;
+background-color:#5c469cc4;
+}
+#muar h1{
+display:flex ;
+margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'doce';
+    color: #D4ADFC;
+    font-size: 90px;
+}
+/* #t5{
+    display: flex;
+   margin:0 355px;
+   width: 400px;
+    height: 430px;
+}
+section a{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .3s ease-in;
+}
+section a:hover{
+    cursor:pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(95%);
+} */
